@@ -39,6 +39,18 @@
     color: white;
   }
 
+
+/* General Background Logo
+----------------*/
+
+#backgroundMain
+{
+  width: 100%;
+  height: 100vh;
+  background: url(assets/AgentPanda.png) top center;
+  overflow: hidden;
+}
+
 /* Navigation
 ----------------*/
 
@@ -96,19 +108,6 @@
   {
     color: #fff;
   }
-
-/* General Background Logo
-----------------*/
-
-  #backgroundMain
-  {
-    width: 100%;
-    height: 100vh;
-    background: url(assets/AgentPanda.png) top center;
-    background-size: cover;
-    overflow: hidden;
-  }
-
 
 /* FAQ
 ----------------*/
@@ -183,8 +182,117 @@
     width: 200%;
   }
 
-  .jobs .details h3 a
+  .jobs .details h3
   {
-    color: red;
+    color: black;
+    text-align: center;
+    background-color: white;
+  }
+
+  .details p
+  {
+    background: grey;
+    text-align: center;
   }
   
+
+/* Footer
+---------------*/
+
+#footer 
+{
+  background: black;
+  color: rgba(105, 105, 105);
+  font-size: 10px;
+}
+
+#footer .footer-top 
+{
+  background: black;
+  padding: 60px 0 30px 0;
+}
+
+#footer .footer-top h1 a
+{
+  color: red;
+}
+
+#footer .footer-top .footer-info 
+{
+  align-content: flex-start;
+  text-align: left;
+  text-align: justify;
+}
+
+#footer .footer-top .footer-info p 
+{
+  font-size: 10px;
+  line-height: 30px;
+  align-content: flex-start;
+  text-transform: uppercase;
+}
+
+#footer .footer-top .social-links a:hover
+{
+  background: red;
+}
+
+#footer .footer-top h4 
+{
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px;
+  border-bottom: 2px solid red;
+
+}
+
+#footer .footer-top .footer-links 
+{
+  margin-bottom: 5px;
+  margin-left: 0px;
+}
+
+#footer .footer-top .footer-links ul 
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul li 
+{
+  border-bottom: 1px solid rgba(105, 105, 105);
+  padding: 10px 0;
+}
+
+#footer .footer-top .footer-links ul a 
+{
+  color: rgba(105, 105, 105);
+}
+
+#footer .footer-top .footer-links ul a:hover 
+{
+  color: red;
+}
+
+#footer .footer-top .footer-contact 
+{
+  margin-bottom: 5px;
+  text-align: start;
+}
+
+#footer .footer-top .footer-contact p 
+{
+  line-height: 20px;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+#footer .copyright 
+{
+  text-align: center;
+  padding-top: 30px;
+}
