@@ -48,7 +48,6 @@
   width: 100%;
   height: 100vh;
   background: url(assets/AgentPanda.png) top center;
-  background-size: cover;
   overflow: hidden;
 }
 
@@ -183,9 +182,17 @@
     width: 200%;
   }
 
-  .jobs .details h3 a
+  .jobs .details h3
   {
-    color: red;
+    color: black;
+    text-align: center;
+    background-color: white;
+  }
+
+  .details p
+  {
+    background: grey;
+    text-align: center;
   }
   
 
@@ -214,6 +221,7 @@
 {
   align-content: flex-start;
   text-align: left;
+  text-align: justify;
 }
 
 #footer .footer-top .footer-info p 
@@ -221,7 +229,6 @@
   font-size: 10px;
   line-height: 30px;
   align-content: flex-start;
-  text-align: block, left;
   text-transform: uppercase;
 }
 
@@ -237,7 +244,6 @@
   color: #fff;
   text-transform: uppercase;
   position: relative;
-  align-content: justify, center;
   padding-bottom: 12px;
   border-bottom: 2px solid red;
 
@@ -254,7 +260,6 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  align-content: center;
 }
 
 #footer .footer-top .footer-links ul li 
@@ -282,7 +287,7 @@
 #footer .footer-top .footer-contact p 
 {
   line-height: 20px;
-  text-align: start;
+  text-align: justify;
   text-transform: uppercase;
 }
 
