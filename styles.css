@@ -181,8 +181,9 @@
 
   .details p
   {
-    background: grey;
+    background: black;
     text-align: center;
+    color: white;
   }
   
 
