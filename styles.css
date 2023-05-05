@@ -78,7 +78,7 @@
   .navbar>ul>li>a:before 
   {
     content: "";
-    position: absolute;
+    position: relative;
     width: 0;
     height: 2px;
     bottom: 0px;
