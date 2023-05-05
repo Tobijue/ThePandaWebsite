@@ -23,8 +23,6 @@
   #mainheader #logo h1
   {
     font-size: 80px;
-    margin: 0;
-    font-family: sans-serif;
     font-weight: 700;
     letter-spacing: 3px;
   }
@@ -48,7 +46,7 @@
   width: 100%;
   height: 100vh;
   background: url(assets/AgentPanda.png) top center;
-  overflow: hidden;
+  overflow:hidden;
 }
 
 /* Navigation
@@ -59,24 +57,17 @@
     margin: 0;
     padding: 0;
     display: flex;
-    align-items: center;
   }
   
   .navbar>ul>li 
   {
-    white-space: nowrap;
     padding: 10px 0 10px 12px;
-    
   }
 
   .navbar a,
   .navbar a:focus 
   {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     color: rgba(105, 105, 105);
-    font-family: sans-serif;
     font-weight: 600;
     font-size: 30px;
     white-space: nowrap;
@@ -115,7 +106,6 @@
   #faq .faq-list 
   {
     list-style: none;
-    position: static;
   }
   
   #faq .faq-list li 
@@ -133,9 +123,10 @@
     line-height: 40px;
     font-weight: 300;
     padding-left: 25px;
+    padding-right: 25px;
     cursor: pointer;
     color: #e0072f;
-    transition: 0.3s;
+    transition: 1.0s;
   }
   
   #faq .faq-list p 
@@ -150,7 +141,7 @@
   #faq .faq-list .collapsed 
   {
     color: black;
-    position: static;
+
   }
   
   #faq .faq-list .collapsed:hover 
@@ -171,7 +162,6 @@
   {
     width: 200%;
     height: auto;
-    margin-top: 50px;
   }
 
 /* Famus Jobs
@@ -209,7 +199,7 @@
 #footer .footer-top 
 {
   background: black;
-  padding: 60px 0 30px 0;
+  padding: 40px 0 30px 0;
 }
 
 #footer .footer-top h1 a
@@ -219,8 +209,6 @@
 
 #footer .footer-top .footer-info 
 {
-  align-content: flex-start;
-  text-align: left;
   text-align: justify;
 }
 
@@ -228,13 +216,7 @@
 {
   font-size: 10px;
   line-height: 30px;
-  align-content: flex-start;
   text-transform: uppercase;
-}
-
-#footer .footer-top .social-links a:hover
-{
-  background: red;
 }
 
 #footer .footer-top h4 
@@ -243,7 +225,6 @@
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
-  position: relative;
   padding-bottom: 12px;
   border-bottom: 2px solid red;
 
@@ -252,7 +233,6 @@
 #footer .footer-top .footer-links 
 {
   margin-bottom: 5px;
-  margin-left: 0px;
 }
 
 #footer .footer-top .footer-links ul 
@@ -281,7 +261,7 @@
 #footer .footer-top .footer-contact 
 {
   margin-bottom: 5px;
-  text-align: start;
+  text-align: justify;
 }
 
 #footer .footer-top .footer-contact p 
